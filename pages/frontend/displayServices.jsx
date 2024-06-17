@@ -4,10 +4,6 @@ import {  useSelector } from 'react-redux'
 
 import JobsCard from '@/components/ServicesCard'
 
-
-
-
-
 export default function DisplayJobs() {
     const JobData = useSelector(state => state?.Job?.JobData) || [];
     return (
